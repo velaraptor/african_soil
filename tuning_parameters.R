@@ -81,5 +81,3 @@ predictions<-cbind(predict.best.ca,predict.best.p,predict.best.ph,predict.best.s
 submission<-cbind(PIDN=submission,predictions)
 write.csv(submission,"tunedsvm.csv",row.names=FALSE,quote=FALSE)
 ##===================================================================================================================
-
-
