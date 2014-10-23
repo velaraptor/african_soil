@@ -6,7 +6,7 @@
 ## Using Support Vector Machines With Log Transformations for SOC and P 
 ## Throughout the competition I tuned GBM, Random Forests, and Support Vector Machines, but due to overfitting in 
 ## GBM models, and trying to use ensemble learning methods, I decided to submit this model since it seemed to be the
-## most effective model. 
+## most effective model. This is the models I submitted that got me to 45th place and a SUM RMSE of 0.49360
 ##===================================================================================================================
 ##===================================================================================================================
 
