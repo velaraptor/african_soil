@@ -33,11 +33,11 @@ bestsand<-tunesand$best.model
 
 ##===================================================================================================================
 ##===================================================================================================================
-##Best Parameters for Ca: gamma:    cost:
-##Best Parameters for P: gamma:    cost:
-##Best Parameters for pH: gamma:    cost:
-##Best Parameters for SOC: gamma:    cost:
-##Best Parameters for Sand: gamma:    cost:
+##Best Parameters for Ca: gamma: .01   cost: 100
+##Best Parameters for P: gamma: .001   cost: 1000
+##Best Parameters for pH: gamma: .001   cost: 10000
+##Best Parameters for SOC: gamma:.001    cost: 100
+##Best Parameters for Sand: gamma: .001   cost: 1000
 ##===================================================================================================================
 ##===================================================================================================================
 
