@@ -56,13 +56,13 @@ predict.best.sand<-predict(bestsand,data=train)
 predictions.train<-list(predict.best.ca,predict.best.p,predict.best.ph,predict.best.soc,predict.best.sand)
 rmse.train.tune<-lapply(1:5,
           function(i){
-            sqrt(sum((predictions.train-labels[,i])^2)/(nrow(train)))
+            sqrt(sum((predictions.train[[i]]-labels[,i])^2)/(nrow(train)))
             }
           )
 rmse.train.tune
 
 ##===================================================================================================================
-##Root Mean Square Error FOR CA: P: pH: SOC: SAND:
+##Root Mean Square Error FOR CA:.135 P: .8537 pH: .2000 SOC: .2517 SAND:.27375, TOTAL RMSE=.3429
 ##===================================================================================================================
 
 ##===================================================================================================================
