@@ -78,6 +78,7 @@ predict.best.soc<-exp(predict.best.soc)-2
 predict.best.sand<-predict(bestsand,newdata=test)
 
 predictions<-cbind(predict.best.ca,predict.best.p,predict.best.ph,predict.best.soc,predict.best.sand)
+names(predictions)<-c("Ca","P","pH","SOC","Sand")
 submission<-cbind(PIDN=submission,predictions)
 write.csv(submission,"tunedsvm.csv",row.names=FALSE,quote=FALSE)
 ##===================================================================================================================
